@@ -133,8 +133,21 @@ String greetWithName(String name) {
 You can also define anonymous functions (also called lambda functions).
 
 ```dart
-var add = (a, b) => a + b;
+void main() 
+{ 
+  var list = ["0 String","1 String","2 String","3 String"]; 
+  print("Anonymous function in Dart"); 
+  list.forEach((item) { 
+    print('${list.indexOf(item)} : $item'); // Anonymous function in Dart
+  }); 
+}
 ```
+#### Arrow Functions
+
+```dart
+int add(int x, int y) => x + y;
+```
+
 
 #### Optional and Named Parameters
 
