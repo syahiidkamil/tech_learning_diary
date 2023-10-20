@@ -112,8 +112,6 @@ do {
 
 ---
 
-### Functions and Scope
-
 #### Defining Functions
 
 In Dart, you can define functions using the `void` keyword if the function doesn't return anything, or specify the return type.
