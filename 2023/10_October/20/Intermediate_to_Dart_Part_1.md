@@ -58,7 +58,7 @@ var evenNumbers = numbers.where((n) => n % 2 == 0);
 
 ## Operators and Expressions
 
-### Equality and Relational Operators
+### Equality and Comparison Operators
 
 - `==`: Checks if two objects are equal.
 - `!=`: Checks if two objects are not equal.
