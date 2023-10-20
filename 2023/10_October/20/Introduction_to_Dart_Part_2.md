@@ -53,6 +53,10 @@ final name = 'John';
 const pi = 3.14159;
 ```
 
+const and final serve different purposes even though both imply immutability. The const keyword signifies that the variable's value is a compile-time constant. It's not just immutable; it's eternally unchangeable. On the other hand, final means the variable can't be reassigned once it has been initialized, but its value can be determined at runtime. This distinction becomes crucial when optimizing code, especially in the context of Flutter, where using const for widgets can enhance performance by avoiding unnecessary rebuilds. In essence, const can make your code more efficient, while final offers flexibility with immutability.
+
+in official documentation it's stated that `Use const constructors on widgets as much as possible, since they allow Flutter to short-circuit most of the rebuild work. To be automatically reminded to use const when possible, enable the recommended lints from the flutter_lints package` (https://docs.flutter.dev/perf/best-practices)
+
 ---
 
 ### Basic Control Flow
