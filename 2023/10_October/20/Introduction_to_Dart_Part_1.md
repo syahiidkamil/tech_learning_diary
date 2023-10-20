@@ -1,7 +1,7 @@
 
 # Learning Diary: Dart Programming Language
 ## Date: October 20, 2023
-## Author: [Your Name]
+## Author: Syahiid Nur Kamil
 
 ---
 
