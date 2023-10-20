@@ -37,11 +37,11 @@ If you're interested in mobile development with Flutter, installing Flutter will
 ### Your First Dart Program
 Here is a simple "Hello, World!" program in Dart:
 
-\```dart
+```dart
 void main() {
   print('Hello, World!');
 }
-\```
+```
 
 To run this code:
 1. Save the code in a file named `hello.dart`.
